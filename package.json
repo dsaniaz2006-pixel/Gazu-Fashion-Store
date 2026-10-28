@@ -1,0 +1,19 @@
+{
+  "name": "gazu-store-2",
+  "version": "1.0.0",
+  "description": "Your original GAZU storefront now has customer accounts, a persistent cart, COD orders, a mock payment API, and an admin dashboard. Start with three seeded products and add more from the admin page.",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+  "dev": "concurrently -k -n BACKEND,FRONTEND \"npm run dev --prefix backend\" \"npm run dev --prefix frontend\""
+},
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "devDependencies": {
+    "concurrently": "^10.0.6"
+  }
+}
